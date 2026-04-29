@@ -1,0 +1,21 @@
+/* Establecemos como fuente Gill Sans, entre otras de su mismo tipo */
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+/* Colapsamos los bordes de cada celda en uno solo */
+table {
+    border-collapse: collapse;
+}
+
+/* Definifimos como padding 8 píxeles, y, para el borde de las celdas, 1 píxel de grosor y color negro */
+td,
+th {
+    padding: 8px;
+    border: 1px solid black;
+}
+
+/* Pondremos un color a las cabeceras */
+th {
+    background-color:lightgrey;
+}
